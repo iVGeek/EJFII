@@ -3,7 +3,10 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { BLOCKS } from '@contentful/rich-text-types';
-import { FiSearch, FiCalendar, FiUser, FiTag } from 'react-icons/fi';
+import { FiSearch } from '@react-icons/all-files/fi/FiSearch';
+import { FiCalendar } from '@react-icons/all-files/fi/FiCalendar';
+import { FiUser } from '@react-icons/all-files/fi/FiUser';
+import { FiTag } from '@react-icons/all-files/fi/FiTag';
 import client from '../services/contentful';
 
 type BlogPost = {

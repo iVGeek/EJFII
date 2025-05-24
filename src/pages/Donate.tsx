@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { loadStripe } from '@stripe/stripe-js';
-import { FiDollarSign, FiCreditCard, FiCheck } from 'react-icons/fi';
+import { FiDollarSign } from '@react-icons/all-files/fi/FiDollarSign';
+import { FiCreditCard } from '@react-icons/all-files/fi/FiCreditCard';
+import { FiCheck } from '@react-icons/all-files/fi/FiCheck';
 
 // Mock Stripe integration - in a real app, you would use actual Stripe keys
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY || 'pk_test_mock_key');

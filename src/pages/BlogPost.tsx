@@ -3,7 +3,9 @@ import { useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { BLOCKS } from '@contentful/rich-text-types';
-import { FiCalendar, FiUser, FiArrowLeft } from 'react-icons/fi';
+import { FiCalendar } from '@react-icons/all-files/fi/FiCalendar';
+import { FiUser } from '@react-icons/all-files/fi/FiUser';
+import { FiArrowLeft } from '@react-icons/all-files/fi/FiArrowLeft';
 import client from '../services/contentful';
 import { Link } from 'react-router-dom';
 

@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
-import { FiHeart, FiUsers, FiGlobe } from 'react-icons/fi';
+import { FiHeart } from '@react-icons/all-files/fi/FiHeart';
+import { FiUsers } from '@react-icons/all-files/fi/FiUsers';
+import { FiGlobe } from '@react-icons/all-files/fi/FiGlobe';
 
 const MissionSection: React.FC = () => {
   const missionItems = [

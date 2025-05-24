@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiSend, FiX, FiMessageSquare } from 'react-icons/fi';
+import { FiSend } from '@react-icons/all-files/fi/FiSend';
+import { FiX } from '@react-icons/all-files/fi/FiX';
+import { FiMessageSquare } from '@react-icons/all-files/fi/FiMessageSquare';
 
 type Message = {
   id: string;

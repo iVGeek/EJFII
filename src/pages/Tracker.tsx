@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FiPlus, FiCalendar, FiTrendingUp, FiActivity, FiSun, FiMoon } from 'react-icons/fi';
+import { FiPlus } from '@react-icons/all-files/fi/FiPlus';
+import { FiCalendar } from '@react-icons/all-files/fi/FiCalendar';
+import { FiTrendingUp } from '@react-icons/all-files/fi/FiTrendingUp';
+import { FiActivity } from '@react-icons/all-files/fi/FiActivity';
+import { FiSun } from '@react-icons/all-files/fi/FiSun';
+import { FiMoon } from '@react-icons/all-files/fi/FiMoon';
 import { Line } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
