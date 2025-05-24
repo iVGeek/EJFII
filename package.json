@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^16.0.1",
+    "@react-icons/all-files": "^4.1.0",
     "@stripe/stripe-js": "^7.3.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -23,7 +24,6 @@
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.6.0",
     "react-scripts": "^5.0.1",
-    "tailwindcss": "^4.1.7",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -52,9 +52,14 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@tailwindcss/postcss": "^4.1.7",
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
     "@types/react-helmet": "^6.1.11",
-    "@types/react-router-dom": "^5.3.3"
+    "@types/react-router-dom": "^5.3.3",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7"
   }
 }
