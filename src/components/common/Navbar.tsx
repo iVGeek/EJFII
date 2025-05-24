@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useTheme } from '../../context/ThemeContext';
-import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
+import * as FiIcons from 'react-icons/fi';
 
 const Navbar: React.FC = () => {
   const { isDark, toggleTheme } = useTheme();
@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
               className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-300"
               aria-label="Toggle dark mode"
             >
-              {isDark ? <FiSun size={20} /> : <FiMoon size={20} />}
+              {isDark ? <FiIcons.FiSun size={20} /> : <FiIcons.FiMoon size={20} />}
             </button>
           </div>
 
@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary focus:outline-none transition-colors duration-300"
               aria-label="Toggle menu"
             >
-              {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
+              {isOpen ? <FiIcons.FiX size={24} /> : <FiIcons.FiMenu size={24} />}
             </button>
           </div>
         </div>
@@ -96,12 +96,12 @@ const Navbar: React.FC = () => {
               >
                 {isDark ? (
                   <>
-                    <FiSun className="mr-2" size={18} />
+                    <FiIcons.FiSun className="mr-2" size={18} />
                     Light Mode
                   </>
                 ) : (
                   <>
-                    <FiMoon className="mr-2" size={18} />
+                    <FiIcons.FiMoon className="mr-2" size={18} />
                     Dark Mode
                   </>
                 )}
